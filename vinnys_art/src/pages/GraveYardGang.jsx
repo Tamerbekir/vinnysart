@@ -14,7 +14,7 @@ export default function GraveYardGang() {
 
 
   return (
-    <div>
+    <div className='graveYardGangDiv'>
       <h1>Grave Yard Gang!</h1>
       <Carousel>
         <Carousel.Item>

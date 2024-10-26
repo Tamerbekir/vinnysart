@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+}
+
 img {
+  max-width: 100%;
+  max-height: 100%;
   margin: auto;
-  display: flex;
+  display: block;
+}
+
+.navBar {
+  background-color: rgba(141, 145, 179, 0.853);
+}
+
+.graveYardGangDiv {
+  background-color: rgba(177, 177, 177, 0.425);
+}
+
+* {
+  text-align: center;
 }

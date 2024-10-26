@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-
+import '../index.css'
 
 
 
@@ -21,7 +21,7 @@ export default function NaBar() {
   }
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navBar">
       <Container fluid>
         <Navbar.Brand href="#">Vinny's Art</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
